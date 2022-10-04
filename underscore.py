@@ -6,18 +6,8 @@ PRICES = {
     'TV': 23_000,
 }
 
-def show_prices():
-    print(type(PRICES['apple']))
 
-    for key, value in PRICES.items():
-        print(f'{key}: {value}')
+print(type(PRICES['apple']))
 
-
-def main():
-    show_prices()
-
-
-if __name__ == "__main__":
-    main()
-
-
+for key, value in PRICES.items():
+    print(f'{key}: {value}')
