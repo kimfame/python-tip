@@ -19,3 +19,7 @@ strings = ["alfa", "bravo", "charlie", "Delta"]
 # use zip
 for val1, val2 in zip(numbers, strings):
     print(val1, val2)
+
+# for val1, val2 in zip(numbers, strings, strict=True): # error
+#     print(val1, val2)
+
